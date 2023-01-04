@@ -1,10 +1,16 @@
 <?php
-function concatenation(){
-    $arg1= "Micka";
-    $arg2 = "Devoldère";}
+
+$nom = "willy";
+$prenom="kips";
 
 
+function nomComplet(string $nom, string $prenom)
 
-concatenation();
-    echo "afficher" .$arg1.$arg2;
+{
+
+    return $nom . ' ' . $prenom;
+
+}
+echo "je suis " . nomComplet( $nom ,  $prenom);
+
 ?>
