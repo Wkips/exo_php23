@@ -27,5 +27,14 @@ public function calculMensualite(): float
         $Q = (1 - pow((1 + $this->taux_mensuel), -$this->nbmois));
         return $mensualite;
 
+
+        
+
+}
+
+public function tauxMensuel(): float
+{
+        $Tm = ($this->taux_annuel / 12);
+
 }
 }
