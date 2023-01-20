@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul impôt</title>
+
+    <style>
+        fieldset { width:30%;
+        background-color: #eee;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;}
+
+    input { margin-bottom: 10px; }
+    p { text-align: center;}
+    </style>
+</head>
+<body>
+
+
+
+<form method="GET" action="resultatImpot.php" enctype="text/plain">
+<fieldset> <legend> Renseignez votre nom et vos revenu:</legend>
+    <input type="text" placeholder="saisir nom" name="txtnom" id="nom" value="<?php if (isset($_GET["txtnom"])) {
+        echo $_GET["txtnom"];
+        
+    }  ?>"  ><br>
+    <input type="number" placeholder="saisir revenu" name="txtrevenu" id="revenu" value="<?php   $test =(!empty($_GET["txtrevenu"]))? $_GET["txtrevenu"]: "0";   echo $test?>" step="0.01">
+    <br>
+    <input type="submit" value="envoyer" id="btnenvoyer" name="btnenvoyer">
+    </fieldset></form>
+  
+
+
+?>
+</body>
+</html>

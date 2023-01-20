@@ -7,18 +7,3 @@
   
 
 <?php
-$revenu="revenu";
-$pourcentage= ($revenu*9)/100;
-
-
-function Calcul(int $revenu)
-{
-    if ($revenu<15000) {echo 
-   "vous devez payer "
-    }
-    # code...
-}
-
-
-?>
-

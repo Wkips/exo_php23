@@ -1,0 +1,23 @@
+fieldset {
+     background-color: rgb(233, 227, 227);
+    border-radius: 12px;
+    border-color: black;
+
+width: 30%;
+margin-left: auto;
+margin-right: auto;
+padding: 30px;
+}
+label {
+
+    display:inline-block; /* les elements reste les un a cotes des autres (in line) width et height autorise */
+    width: 300px;
+
+}
+
+input[type="number"] {
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-bottom: 20px;
+}
