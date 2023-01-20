@@ -25,6 +25,8 @@ public function calculMensualite(): float
 {
         $mensualite = 0;
         $Q = (1 - pow((1 + $this->taux_mensuel), -$this->nbmois));
+
+        $mensualite = $this->capital * $this->taux_mensuel / $Q;
         return $mensualite;
 
 

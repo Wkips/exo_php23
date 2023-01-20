@@ -11,6 +11,18 @@
 <body>
     <header><!-- En tete du site(logo, menus horizontaux, banniere)--><h1>Header</h1></header>
 
+    <?php
+
+    require "./models/pret.php";
+    if (isset($_GET["validation"])) {
+
+        $monpret = new Pret($_GET["capital"], $_GET["taux_annuel"], $_GET["nbannees"]);
+
+$mensualite= $monpret->calculMensualite();
+        echo '<p>'.$mensualite.'</p>';
+    }
+
+?>
  
 
     <main><!-- Contenu principal de la page  -->
