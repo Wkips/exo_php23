@@ -21,3 +21,15 @@ input[type="number"] {
 input[type="submit"] {
     margin-bottom: 20px;
 }
+
+
+table {
+    border: 2px; border-style: solid; border-color: black;
+    margin-left:  auto;
+    margin-right: auto;
+    width: 70%;
+}
+#mensualite {
+        background-color:bisque;
+}
+p {text-align: center;}
