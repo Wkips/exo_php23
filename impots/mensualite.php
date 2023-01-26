@@ -58,18 +58,22 @@ $mensualite= $monpret->calculMensualite();
 
   <!-- Tableau d'amortissement  -->
 
-
+<?php
+  require"./models/pret.php";
+  if (isset($_GET["validation"])) ;
+?>
 <table> <thead>
     <tr>
     <th>"Numéros de mois </th>
      <th>Intéréts</th> 
      <th>Partie amortissement</th> 
      <th>Capital restant du</th> 
-    <th>Mensualités</th> 
+    <th>Mensualités</th>                                                                                                 
 
     </tr>
      </thead>
-
+     <td> </td>
+</table>
 
     <footer><!-- Pied de page de la page (Copyright reseaux sociaux plan du site)--></footer>
  
