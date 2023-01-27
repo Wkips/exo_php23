@@ -1,0 +1,53 @@
+[
+    {"id":1,
+    "titre":"L’Ile de Lombok vue depuis l’île de Trawangan (Iles Gili)",
+    "alt":"L’Ile de Lombok vue depuis l’île de Trawangan (Iles Gili)"
+
+    },
+    {
+        "id":2,
+        "titre":"Le volcan Agung, Bali.",
+        "alt": "Le volcan Agung, Bali."
+    },
+    {
+        "id":3,
+        "titre":"Construction d’une embarcation traditionnelle, Lovina Beach, Bali.",
+        "alt": "Construction d’une embarcation traditionnelle, Lovina Beach, Bali."
+    },
+    {
+        "id":4,
+        "titre":"Pêcheur artisanal sur la côte balinaise",
+        "alt": "Pêcheur artisanal sur la côte balinaise"
+    },
+    {
+        "id":5,
+        "titre":"Coucher de soleil sur la Mer de Bali",
+        "alt": "Coucher de soleil sur la Mer de Bali"
+    },
+    {
+        "id":6,
+        "titre":"Echange spirituel au temple hindou « Pura Ulun Danu », Bali.",
+        "alt": "Echange spirituel au temple hindou « Pura Ulun Danu », Bali."
+    },
+    {
+        "id":7,
+        "titre": "Scène de vie quotidienne (nourriture destinée aux cochons), Lovina Beach, Bali.",
+        "alt": "Scène de vie quotidienne (nourriture destinée aux cochons), Lovina Beach, Bali."
+    },
+    {
+        "id":8,
+        "titre":"Epouillage en règle à la forêt des singes d’Ubud ; cet animal est sacré pour les Balinais.",
+        "alt": "Epouillage en règle à la forêt des singes d’Ubud ; cet animal est sacré pour les Balinais."
+    },
+    {
+        "id":9,
+        "titre":"Des singes en bordure de forêt d’Ubud, Bali.",
+        "alt": "Des singes en bordure de forêt d’Ubud, Bali."
+    },
+    {
+        "id":10,
+        "titre":"Arbre de la forêt des singes d’Ubud. Il s’agit de racines et non de lianes.",
+        "alt": "Arbre de la forêt des singes d’Ubud. Il s’agit de racines et non de lianes"
+    }
+  
+]

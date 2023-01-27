@@ -59,7 +59,7 @@ $mensualite= $monpret->calculMensualite();
   <!-- Tableau d'amortissement  -->
 
 <?php
-  require"./models/pret.php";
+ 
   if (isset($_GET["validation"])) ;
 ?>
 <table> <thead>
