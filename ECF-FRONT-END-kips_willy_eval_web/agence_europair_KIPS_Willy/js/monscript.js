@@ -24,9 +24,33 @@ function genererVoyages(_data)
        let myResume = document.createElement("div");
         myResume.classList.add("summary");
         monArticle.appendChild(myResume);
-        myResume.innerHTML=_data[i].trip_description;  
+        myResume.innerHTML=(_data[i].trip_description).substr(0,200);  
 
-  
+        let myDescription = document.createElement("div");
+        myDescription.classList.add("description");
+        monArticle.appendChild(myDescription);
+
+
+        let myButton = document.createElement("button");
+        myButton.innerHTML= "lire la suite";
+        myButton.id = "btnplus"+_data[i].id;
+        myButton.name = "btnplus";
+        myButton.classList.add ("btnplus");
+        myResume.appendChild(myButton);
+
+        let test=true;
+        myButton.addEventListener("click",function(){
+            if(test==true)
+            {
+            myDescription.innerHTML=_data[i].trip_description;
+            test=false;}
+            else{
+                myDescription.innerHTML="";
+                test=true;
+            }
+
+        })
     
     }
+
 }

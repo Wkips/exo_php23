@@ -10,6 +10,18 @@
 	
 }	
 
+.description
+{color: white;
+clear: both;
+}
+.btnplus{
+	background-color: #455eec;
+	color: white;
+	border-radius: 8px;
+	padding: 5px;
+	margin: 10px;
+}
+
 article {
 	border: 2px solid rgb(182, 217, 221);
 	background-color: #218E8E;
