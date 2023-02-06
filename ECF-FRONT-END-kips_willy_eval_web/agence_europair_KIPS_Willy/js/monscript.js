@@ -5,23 +5,25 @@ fetch("voyages.json")
 
 function genererVoyages(_data)
 {
-    let maSection = document.getElementById("films");
+
+    let maSection = document.getElementById("films");//chercher l element container qui contient section ID film dans la page html
     for (let i = 0; i < _data.length; i++) {
 
         let monArticle = document.createElement("article");
-        maSection.appendChild(monArticle);
-       let monTitre = document.createElement("h2");
+        maSection.appendChild(monArticle);//creation des elements articles rattachement a la section ID film si appendchild Depent depent de getElement  
+       let monTitre = document.createElement("h2");//creer l element h2 et inclure le titre 
         monTitre.innerHTML=_data[i].trip_title;
-        monArticle.appendChild(monTitre);
+        monArticle.appendChild(monTitre);//ajouter h2 dans l'article 
 
-        let monImage = document.createElement("img");
+        let monImage = document.createElement("img");//creer une image et l'inclure dans l'article
         monImage.src = './images/voyages/id'+ _data[i].trip_id+".jpg";
         monImage.setAttribute("alt",_data[i].trip_title);
+        //donner l'attribut source a l'image  (src=) ajout atribut alt malvoyant Non voyant
 
         monArticle.appendChild(monImage);
         monImage.classList.add("gauche");
 
-       let myResume = document.createElement("div");
+       let myResume = document.createElement("div");//creation d'un div dans l'article qui contient la description de l'image et un button "voir plus "
         myResume.classList.add("summary");
         monArticle.appendChild(myResume);
         myResume.innerHTML=(_data[i].trip_description).substr(0,200);  
