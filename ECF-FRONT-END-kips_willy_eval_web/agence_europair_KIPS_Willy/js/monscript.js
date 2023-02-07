@@ -28,20 +28,21 @@ function genererVoyages(_data)
         monArticle.appendChild(myResume);
         myResume.innerHTML=(_data[i].trip_description).substr(0,200);  
 
-        let myDescription = document.createElement("div");
+        let myDescription = document.createElement("div");//creation d'un div dans l'article qui contient la description de myresume "
+        myResume.classList.add("summary");
         myDescription.classList.add("description");
         monArticle.appendChild(myDescription);
 
 
-        let myButton = document.createElement("button");
-        myButton.innerHTML= "lire la suite";
+        let myButton = document.createElement("button");//creation du button "lire la suite"
+        myButton.innerHTML= "lire la suite"; //texte contenu dans le button
         myButton.id = "btnplus"+_data[i].id;
         myButton.name = "btnplus";
         myButton.classList.add ("btnplus");
         myResume.appendChild(myButton);
 
         let test=true;
-        myButton.addEventListener("click",function(){
+        myButton.addEventListener("click",function(){ //action au "clic"
             if(test==true)
             {
             myDescription.innerHTML=_data[i].trip_description;
