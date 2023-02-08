@@ -13,3 +13,11 @@ let xhr= new XMLHttpRequest();
             console.log("Erreur"+xhr.status+":"+xhr.statusText);
         }
     }
+
+    function genererDiapo (_tadata)
+    
+    {
+        let hook = document.querySelector(".carousel-inner")   //getElementByClassName[0]
+
+
+    } 

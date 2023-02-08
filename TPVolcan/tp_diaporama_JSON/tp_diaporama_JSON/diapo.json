@@ -48,6 +48,89 @@
         "id":10,
         "titre":"Arbre de la forêt des singes d’Ubud. Il s’agit de racines et non de lianes.",
         "alt": "Arbre de la forêt des singes d’Ubud. Il s’agit de racines et non de lianes"
+    },
+    
+    {
+        "id":11,
+        "titre":"Crépuscule au temple hindou de Luhur Uluwatu, Bali.",
+        "alt": "Crépuscule au temple hindou de Luhur Uluwatu, Bali."
+    },
+    {
+        "id":12,
+        "titre":"Nénuphars du jardin aquatique de Tirta Gangga, Bali.",
+        "alt": "Nénuphars du jardin aquatique de Tirta Gangga, Bali."
+    },
+
+    {
+        "id":13,
+        "titre":"Coq dans une cage en bambou.",
+        "alt": "Coq dans une cage en bambous"
+    },
+
+    {
+        "id":14,
+        "titre":"Rizières de Jatiluwih, Bali.",
+        "alt": "Rizières de Jatiluwih, Bali."
+    },
+
+    {
+        "id":15,
+        "titre":"Cratère du volcan Bromo, vénéré par les Javanais hindous.",
+        "alt": "Cratère du volcan Bromo, vénéré par les Javanais hindous. "
+    },
+
+{
+
+        "id":16,
+        "titre" :" Les cultures se situent en bordure de la caldeira du Bromo",
+        "alt": "Les cultures se situent en bordure de la caldeira du Bromo"
+    },
+    {
+        "id":17,
+        "titre":"Le Mont Bromo et sa caldeira",
+        "alt": "Le Mont Bromo et sa caldeira"
+
+    },
+    {
+        "id":18,
+        "titre":"Lac de cratère du volcan Batur, Bali..",
+        "alt": "Lac de cratère du volcan Batur, Bali."
+    },
+
+    {
+        "id":19,
+        "titre":"Cratère du Kawah Ijen et son lac acide",
+        "alt": "Cratère du Kawah Ijen et son lac acide"
+    },
+
+    {
+        "id":20,
+        "titre":"Vapeur d’eau émanant du cratère du volcan Bromo. On remarque des dépôts soufrés sur ses parois.",
+        "alt": "Vapeur d’eau émanant du cratère du volcan Bromo. On remarque des dépôts soufrés sur ses parois."
+    },
+
+    {
+        "id":21,
+        "titre":"Vapeur d’eau émanant du cratère du volcan Bromo. On remarque des dépôts soufrés sur ses parois.",
+        "alt": "Vapeur d’eau émanant du cratère du volcan Bromo. On remarque des dépôts soufrés sur ses parois"
+    },
+
+    {
+        "id":22,
+        "titre":"Affleurement lors de l’ascension du Kawah Ijen.",
+        "alt": "Affleurement lors de l’ascension du Kawah Ijen"
+    },
+
+    {
+        "id":23,
+        "titre":"Chargement de plaques de soufre extraites du cratère du Kawah Ijen.",
+        "alt": "Chargement de plaques de soufre extraites du cratère du Kawah Ijen"
+    },
+
+    {
+        "id":24,
+        "titre":"Zone d’extraction du soufre.",
+        "alt": "Zone d’extraction du soufre"
     }
   
 ]
