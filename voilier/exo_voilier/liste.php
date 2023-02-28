@@ -71,12 +71,17 @@ if (isset($_SESSION["login"]) &&  !empty($_SESSION["login"])) {
 	</ul>';
 }
 else {
-	echo "<input type = 'button' value = 'retour page connexion' id='btnRetour' name = 'btnRetour' >";
+	echo "<p>Vous devez etre authentifier pour acceder au contenu : </p><input type ='button'  value='retour page connexion' id='btnRetour' name='btnRetour' >";
 }
 
 
 ?>
-	
+	<script>
+let btnretour =document.getElementById("btnRetour");
+	btnretour.addEventListener("click",function(){
+		window.location.href="./index.php";
+	})
+	</script>
 
 </body>
 </html>
