@@ -1,2 +1,27 @@
-h3 {text-align: center};
-form { text-align: center;}
+h3 {text-align: center;
+color: white;
+}
+
+
+fieldset {
+    border-radius: 9px;
+    background-color: #ccc;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 20px; 
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+legend {
+    font-size: 1.4em;
+     font-style: italic;
+}
+#btnEnvoyer {
+    margin-left: auto;
+    margin-right: auto;
+}
